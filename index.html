@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+        <p class="cabecalho_menu_logo"> <img src="./img/logo (2).png" alt="estrela"> Jennifer Vale</p>
+        <a class="cabecalho_menu_link" href="#sobre-mim">Sobre Mim</a>
+        <a class="cabecalho_menu_link" href="#skills">Skills</a>
+        <a class="cabecalho_menu_link" href="#projetos">Projetos</a>
+        <a class="cabecalho_menu_link" href="#Hobbies">Hobbies</a>
+        <a href="jenni.oliveira0909@gmail.com">jenni.oliveira0909@gmail.com</a>
+        </nav>
+    </header>
+<main>
+    <section class="inicio">
+        <div class="inicio_conteudo">
+          <img class="img" src="./img/IMG.jpg" alt="foto jennifer">
+        <div class="inicio_titulo">
+           <h2>Olá, meu nome é Jennifer Vale e construo páginas Web</h2>
+           <p>Estou me especializando em Front-End, criando páginas Web. Participando do Projeto Oracle One Alura </p>
+        </div>
+        </div>
+        <div class="inicio_links">
+            <a href="https://github.com/Aster0909?tab=repositories" target="_blank" >Github <img src="./img/seta.png" alt="seta"></a>
+            <a href="https://linkedin.com/in/jennifer-mov" target="_blank">Linkedin <img src="./img/seta.png" alt="seta"></a>
+            <a href="https://instagram.com/jenni_mov" target="_blank">Istagram <img src="./img/seta.png" alt="seta"></a>
+        </div>
+    </section> 
+    <section  id="sobre-mim"  class="portifolio">
+        <div>
+            <h1>Sobre Mim</h1>
+            <p>Eu sou Jennifer Vale, estou me tornando uma desenvolvedora web atraves da formação Front-end na oracle/Alura. Atraves dos cursos HTML5, CSS, React e Javascript.
+               Dei inicio ao meu primeiro projeto criando um decodificador de texto, responsivo e com botoes interativos. Meu segundo projeto é uma calculadora simples com o tema do Homem Aranha.
+            </p>
+            <p>Estou empenhada em continuar estudando e me aprofundando cada vez mais, criando varios projetos para acrescentar ainda mais no meu portifolio.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h3>Skills</h3>
+        <div class="skills_conteiner">
+        <div class="skills_item">
+            <img src="./img/html.png" alt="logo html">
+            <p>HTML 5</p>
+        </div>
+        <div class="skills_item">
+           <img src="./img/css.png" alt="logo css">
+            <P>CSS</P>
+        </div>
+        <div class="skills_item">
+          <img src="./img/js.png" alt="Javascript">
+          <P>Javascript</P>
+        </div>   
+        <div class="skills_item">
+           <img src="./img/react.png" alt="react">
+           <P>REACT</P>
+        </div>
+        <div class="skills_item">    
+           <img src="./img/php.png" alt="php">
+           <P>PHP</P>
+        </div>
+        </div>
+    </section>
+    <section id="Hobbies" class="Hobbies">
+        <h4>Hobbies</h4>
+        <div class="Hobbies_conteiner">
+        <div class="Hobbies_item">
+            <img src="./img/viajar.png" alt="viajar">
+            <p>Viajar</p>
+        </div>
+        <div class="Hobbies_item">
+            <img src="./img/cozinhar.png" alt="cozinhar">
+            <p>Cozinhar</p>
+        </div>
+        <div class="Hobbies_item">
+            <img src="./img/passear.png" alt="passear">
+            <p>Passear com cachorro</p>
+        </div>
+        <div class="Hobbies_item">
+            <img src="./img/churrasco.png" alt="churrasco">
+            <p>Churrasco com amigos</p>
+        </div>
+        <div class="Hobbies_item">
+            <img src="./img/tela.png" alt="tela">
+            <p>Assistir filme</p>
+        </div>
+    </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h5>Experiência Profissional</h5>
+        <div class="projeto">
+            <div class="calcu">
+             <img src="./img/calculadora.png" alt="calculadora">
+            </div>
+            <div class="conte">
+            <div class="descri">
+               <h6>Calculadora Aranha</h6>
+            </div>
+            <div class="botao1">
+               <button onclick="window.open('https://github.com/Aster0909/calculadora-spider', '_blank')">Repositorio</button>
+               <button onclick="window.open('https://aster0909.github.io/calculadora-spider/', '_blank')">Ver Demo</button>
+            </div>
+            </div>
+        </div>
+        <div class="decodificador">
+            <div class="deco">
+              <img src="./img/decodificador.png" alt="decodificador">
+            </div>
+            <div class="conteudo">
+                <div class="descrit">
+                  <h7>Decodificador de Texto</h7>
+                  <p>Challeng Alura Codificador</p>
+                </div>
+            <div class="botao2">
+              <button onclick="window.open('https://github.com/Aster0909/Decodificador','_blank')">Repositorio</button>
+              <button onclick="window.open('https://decodificadordetexto-alpha.vercel.app/',',_blank')">Ver Demo</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact">
+        <img src="./img/contato.png" alt="imagem contato" class="contact_img">
+        <div class="contact_form">
+           <h8>Entre em contato</h8>
+            <form id="contactForm" action="" method="post">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="phone">Telefone:</label>
+              <input type="tel" id="phone" name="phone" required>
+
+              <label for="message">Mensagem:</label>
+              <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
+              <button type="submit">Enviar Mensagem</button>
+
+            </form>
+        </div>
+
+    </div>
+</main>
+    <footer class="rodape">
+        <p>Desenvilvido por Jennifer Vale</p>
+        <p>2024</p>
+    </footer>
+      
+</body>
+</html>
